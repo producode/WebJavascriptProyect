@@ -1,8 +1,8 @@
 # Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Este proyecto es un ejemplo de la utilizacion de contratos inteligentes para la creacion de certificados NFT.
 
-Try running some of the following tasks:
+Los comandos para deployarlo en la web3 son:
 
 ```shell
 npx hardhat help
@@ -11,3 +11,5 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+Se debera crear primero un .env con los datos de ambiente como el del ejemplo ".env.example"
